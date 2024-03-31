@@ -1,0 +1,141 @@
+/* position and Layout */
+
+/* 1. Static position */
+/* 
+header{
+    position: static; */
+/* } */
+/* 2.Relative position */
+/* 
+header{
+    position: relative;
+    left: 100px;
+    top: 10px;
+} */
+
+/* 3. Fixed header */
+
+header{
+    background-color: #f63232;
+    padding: 15px ;   /* Padding means to fixed top and bottom and left righ */
+    text-align: center; 
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+
+}
+.banner img{
+    display: block;
+
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+.banner .welcome{
+    background-color:#f63232;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+}
+
+.banner h2{
+    font-size: 30px;
+}
+
+.banner h2 span{
+    font-size: 1.4em;   /*1.3em means three times greater than 74 */
+}
+
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 110px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+nav li a.join{
+    color: #f63232;
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2{
+    color: #f63232;
+    font-size: 48px;
+}
+
+article p{
+    line-height: 2em;
+    color: #4b4b4b;
+}
+.images{
+    display: inline-block;
+    text-align: center; 
+    margin: 80px 0;
+    max-width: 100px;
+    /* white-space: nowrap; */
+}
+.images li{
+    display: inline-block;
+    width: 100%;
+    margin: 50px 5%;
+}
+.images li im{
+    max-width: 40%;
+
+}
+section join{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+section join h2{
+    text-align: center;
+}
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 28px;
+    text-align: center;
+    /* border: 4px solid white; */
+}
+footer{
+    background-color: #f63232;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
