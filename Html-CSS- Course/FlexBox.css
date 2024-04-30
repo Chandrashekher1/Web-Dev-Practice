@@ -1,0 +1,37 @@
+.container{
+    background : beige;
+    border: 5px solid black;
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly;    */
+    align-items: start;
+    align-content:center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid brown;
+    margin: 2px;
+    padding: 2px;
+}
+#box1{
+    background: aqua;
+
+}
+#box2{
+    background: blue;
+
+}
+#box3{
+    background-color: orange;
+
+}
+#box4{
+    background: brown;
+    /* flex-basis: 400px; */
+
+}
