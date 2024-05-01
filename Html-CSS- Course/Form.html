@@ -1,0 +1,43 @@
+<!--Create a Login form -->
+
+<!DOCTYPE html>
+<html>
+    <head>Login Form</head>
+    <body>
+        <h1>HTML Form </h1>
+        <form>
+            <label for="username">Enter Username :</label>
+            <input type="text" id="Username" name="Username"  placeholder="Username" required>
+            <br> <br>
+            <label for="email">Enter email :</label>
+            <input type="text" id="email" name="email" placeholder="email" required>
+            <br> <br>
+            <label for="password">Enter password :</label>
+            <input type="text" id="password" name="password" placeholder="password" required>
+            <label for="age">Enter your age :</label>
+            <br>
+            <p>Select your age :</p>
+            <input type="radio" name="age" value="0-25" id="option-1">
+            <label for="option-1">0-25</label>
+            <input type="radio" name="age" value="25-50" id="option-2">
+            <label for="option-2">25-50</label>
+            <input type="radio" name="age" value="50-75" id="option-3">
+            <label for="option-3">50-75</label>
+            <br><br>
+
+            <label for="question">Security question :</label>
+            <select name="question" id="question">
+                <option value="q1">What colour are your favourite pair of socks?</option>
+                <option value="q2">If you could be a vegetable, what it be ?</option>
+                <option value="q3">What is your best ever security question?</option>
+            </select>
+            <br> <br>
+            <label for="answer">Security question answer :</label>
+            <input type="text" id="answer" name="answer" required><br><br>
+            <label for="bio">Your bio : </label><br>
+            <textarea name="bio" cols="30" rows="10" placeholder="about you...."></textarea>
+            <br><br>
+            <input type="submit" value="Submit the form">
+        </form>
+    </body>
+</html>
