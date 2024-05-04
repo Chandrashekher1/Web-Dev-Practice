@@ -1,1 +1,1 @@
-# HTML-CSS-Practice From Net-Ninja's Playlist
+# HTML-CSS-Practice 
