@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.3rem;
+}
+
+.example{
+    width: 90%;
+    margin: 5em auto;
+    padding: 10em 0;
+    background-color: steelblue;
+}
+/* 600px or bigger  */
+@media (min-width:600px) {
+    .example{
+        background-color: olivedrab;
+    }
+} 
+/* 600px or smaller */
+@media(max-width:600px){
+    .example{
+        background-color: red;
+    }
+
+}
