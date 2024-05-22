@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    /* margin-left: 10%; */
+    color: white;
+    background: rgb(31, 105, 31);
+    /* margin: 0 auto; */
+    border: solid;
+    
+}
+.container h1{
+    margin-left: 50px;
+  
+    
+}
+.container{
+    display: flex;
+    margin: 10px auto;
+    padding: 10px auto;
+}   
+#main.card.card-body{
+    border: solid whitesmoke 3px;
+    width: 50%;
+    margin-left: 50px;
+}
+.btn.btn-dark{
+    background: rgba(22, 15, 15, 0.979);
+    color: white;
+}
+.list-group-item{
+    border: solid 3px whitesmoke;
+    
+
+}
