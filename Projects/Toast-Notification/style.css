@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(61, 136, 211);
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: #fff;
+    color: rebeccapurple;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.btn:focus{
+    outline: none;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+/* By ID */
+#toasts{ 
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.toast{
+    background-color: #fff;
+    color: rebeccapurple;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+
+.toast.success{
+    color: green;
+}
+.toast.info{
+    color: rebeccapurple;
+}
+.toast.error{
+    color: red;
+}
