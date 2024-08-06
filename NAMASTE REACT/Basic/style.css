@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #999;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
